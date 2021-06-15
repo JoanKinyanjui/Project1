@@ -1,0 +1,37 @@
+works1{
+    text-align: center;
+    font-family: Forte;
+}
+.works2{
+    margin: auto;
+    font-family: "Script MT";
+    font-size: 1rem;
+}
+.works3{
+    text-align: center;
+    width: 100%;
+    height: max-content;
+    background-color: white;
+    display: flex;
+    margin: auto;
+}
+
+.ul1{
+    list-style-type: none;
+    flex-direction: row;
+}
+.li1{
+    font-family: System;
+    font-size: 17px;
+    margin: auto;
+    width: 25rem;
+    padding: 30px;
+}
+.no{
+    padding: 5px 10px;
+    background-color: purple;
+    color: black;
+    font-family: Forte;
+    border-radius: 20px 20px 20px 20px;
+
+}

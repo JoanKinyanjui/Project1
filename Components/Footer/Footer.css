@@ -1,0 +1,27 @@
+.Footer{
+    width: 100%;
+    height: max-content;
+    background-color: navajowhite;
+    color: purple;
+    display: flex;
+}
+.column1{
+    margin: auto;
+    padding-top: 1rem;
+}
+.column2{
+    list-style-type: none;
+    text-align: center;
+}
+.column3{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.hr{
+    width: 100%;
+    height: max-content;
+    background-color: navajowhite;
+    text-align: center;
+   color: hotpink;
+
+}

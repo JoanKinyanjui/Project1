@@ -1,0 +1,27 @@
+.Pandemic{
+    width: 100%;
+    height: max-content;
+    padding: 1rem;
+}
+.Safety{
+    width: 62rem;
+    max-height: 25rem;
+    border: 1px 20px solid purple;
+    font-size: larger;
+    margin: auto;
+    font-family: "Script MT";
+    text-align: center;
+    color: black;
+}
+.Safety1{
+    text-decoration: underline;
+    margin: auto;
+}
+.Safety2{
+    text-align: center;
+    font-size: large;
+    align-content: space-around;
+    word-wrap: break-word;
+    padding: 1rem;
+    font-family: System;
+}

@@ -1,0 +1,68 @@
+.Searchproducts{
+    width: 100%;
+    height: 5rem;
+    background-color: purple;
+    display: flex;
+
+}
+.productsform {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 0.5rem;
+}
+.productsinput{
+    padding: 0.5rem 8rem;
+    padding-left: 1rem;
+    border: none;
+}
+.searchlabel{
+    padding : 0.5rem 2rem;
+    background-color: black;
+    color: purple;
+    border-radius: 7px;
+}
+
+.Big{
+    display: flex;
+    margin: auto;
+}
+.Product{
+    width: 100%;
+    height: max-content;
+    font-size: 1.5rem;
+    font-family: "Script MT";
+    text-align: center;
+}
+.BigBox{
+    width: 100%;
+    height: max-content;
+    padding: 1rem;
+
+}
+.SmallBox{
+    width: 12rem;
+    height: 14rem;
+    margin: auto;
+
+}
+.SmallBoxImg{
+    width: 12rem;
+    height: 11rem;
+}
+.SmallBoxLabel{
+    width: 12rem;
+    height: 1.5rem;
+    background-color: white;
+    text-align: center;
+
+}
+.SmallBoxPrice{
+    width: 12rem;
+    height: 1.5rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-content: space-around;
+
+}

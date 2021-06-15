@@ -1,0 +1,41 @@
+.Socials{
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    background-color: navajowhite;
+    margin-top: auto;
+    font-size: 17px;
+}
+.Socials1{
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+}
+.Social-accounts{
+   padding: 1.5rem;
+    font-family: System;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.Buy{
+    width: 100%;
+    height: max-content;
+    font-family: System;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: white;
+    padding-top: 2rem;
+    margin: auto;
+
+}
+.Buy1{
+margin: auto;
+}
+.buy{
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+}
+.buyh5{
+margin: auto;
+}
