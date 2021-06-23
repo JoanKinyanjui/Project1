@@ -1,15 +1,28 @@
 import React from 'react';
-import './shop.css';
+import {Card, CardContent, CardActions, Typography, IconButton,CardMedia} from "@material-ui/core";
+import {AddShoppingCart} from "@material-ui/icons";
+import useStyles from './Style';
 
-function Product(props){
+
+
+const Product=({product}) =>{
+    const classes=useStyles();
     return(
-        <div className='BigBox'>
-            <div className='SmallBox'>
-                <img className='SmallBoxImg' src={props.src} alt={props.alt}/>
-                <div className='SmallBoxLabel'>{props.alt}</div>
-                <div className='SmallBoxPrice'>{props.price}</div>
-            </div>
-        </div>
+        <Card className={classes.root}>
+            < CardMedia className={classes.media} variant='top' src={product.image}/>
+                <CardContent>
+                <div className={classes.cardContent}>
+                    <Typography variant='h5' gutterBottom >{product.name}</Typography>
+                    <Typography variant='h5'>{product.price}</Typography>
+                </div>
+                <Typography variant='body2'>{product.description}</Typography>
+            </CardContent>
+
+            <CardActions disableSpacing className={classes.cartActions}>
+                <IconButton aria-label='Add to Cart'/>
+                <AddShoppingCart/>
+            </CardActions>
+        </Card>
     )
 }
 export default Product;
